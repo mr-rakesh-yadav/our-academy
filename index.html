@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umarawati Academy - Empowering Learners for Success</title>
+    <meta name="description" content="Transform your future with Umarawati Academy's comprehensive educational programs designed for growth and excellence.">
+    <meta name="keywords" content="education, online courses, learning, academy, professional development">
+    <style>
+        /* Base styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header styles */
+        header {
+            background-color: #1E3A8A;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #FFD700;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        nav a:hover {
+            color: #2ECC71;
+        }
+        /* Hero section styles */
+        .hero {
+            background-color: #F8F8F8;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #333333;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #6B6B6B;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary {
+            background-color: #FF7043;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #5C2D91;
+        }
+        .btn-secondary {
+            background-color: transparent;
+            color: #1E3A8A;
+            border: 2px solid #1E3A8A;
+        }
+        .btn-secondary:hover {
+            background-color: #1E3A8A;
+            color: white;
+        }
+        /* Features section styles */
+        .features {
+            padding: 4rem 0;
+            background-color: white;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .feature-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .feature-card h3 {
+            font-size: 1.2rem;
+            color: #333333;
+            margin-top: 1rem;
+        }
+        .feature-card p {
+            color: #6B6B6B;
+            font-size: 0.9rem;
+        }
+        /* CTA section styles */
+        .cta {
+            background-color: #1E3A8A;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .cta h2 {
+            font-size: 2rem;
+            color: #FFD700;
+            margin-bottom: 1rem;
+        }
+        .cta p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        .cta form {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .cta input[type="email"] {
+            padding: 0.8rem;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            max-width: 300px;
+        }
+        .cta .btn {
+            padding: 0.8rem 1.5rem;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #333333;
+            color: #6B6B6B;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        footer a {
+            color: #6B6B6B;
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav ul {
+                margin-top: 1rem;
+                flex-direction: column;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .cta form {
+                flex-direction: column;
+                align-items: center;
+            }
+            .cta input[type="email"] {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">Umarawati Academy</a>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Empowering Learners for Success</h1>
+                <p>Transform your future with our comprehensive educational programs designed for growth and excellence.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="/placeholder.svg?height=48&width=48" alt="Graduation cap icon" width="48" height="48">
+                        <h3>Expert Instructors</h3>
+                        <p>Learn from industry professionals with years of experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/placeholder.svg?height=48&width=48" alt="Users icon" width="48" height="48">
+                        <h3>Interactive Learning</h3>
+                        <p>Engage in collaborative sessions and real-world projects.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="/placeholder.svg?height=48&width=48" alt="Award icon" width="48" height="48">
+                        <h3>Certified Programs</h3>
+                        <p>Earn recognized certifications to boost your career.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Start Your Learning Journey Today</h2>
+                <p>Join thousands of successful learners and transform your career with our comprehensive courses.</p>
+                <form action="#" method="POST">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p><small>By subscribing, you agree to our Terms & Conditions.</small></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Umarawati Academy. All rights reserved.</p>
+            <nav>
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Privacy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
