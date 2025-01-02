@@ -1,0 +1,20 @@
+# robots.txt for umarawatiacademy.com
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /api/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /test/
+
+Allow: /
+Allow: /blog/
+Allow: /courses/
+Allow: /about-us/
+Allow: /contact-us/
+
+Sitemap: https://umarawatiacademy.com/sitemap.xml
